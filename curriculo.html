@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Currículo - Seu Nome</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap');
+
+  :root {
+    --cor-fundo: #0e0e0e;
+    --cor-card: #1a1a1a;
+    --cor-borda: #2b2b2b;
+    --cor-texto: #dcdcdc;
+    --cor-titulo: #ffffff;
+    --cor-hover: #444;
+    --cor-destaque: #888888;
+    --sombra-suave: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+  }
+
+  h1, h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--cor-titulo);
+    text-shadow: 0 0 2px #000;
+  }
+
+  nav {
+    background-color: var(--cor-card);
+    color: var(--cor-texto);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: var(--sombra-suave);
+    border-bottom: 1px solid var(--cor-borda);
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+    color: var(--cor-texto);
+    transform: scale(1.05);
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 120px auto 40px;
+    background-color: var(--cor-card);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: var(--sombra-suave);
+    border: 1px solid var(--cor-borda);
+  }
+
+  .container img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 2px solid var(--cor-borda);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+  }
+
+  p, li {
+    line-height: 1.7;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  section h2 {
+    border-bottom: 1px solid var(--cor-borda);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    color: var(--cor-texto);
+  }
+
+  th, td {
+    border: 1px solid var(--cor-borda);
+    padding: 10px;
+    text-align: center;
+    background-color: #111;
+  }
+
+  th {
+    background-color: #1e1e1e;
+    color: var(--cor-titulo);
+  }
+
+  footer {
+    background-color: #111;
+    color: var(--cor-destaque);
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 1px solid var(--cor-borda);
+  }
+
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  footer a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  footer a:hover {
+    color: var(--cor-texto);
+  }
+
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      margin-top: 140px;
+    }
+  }
+</style></head>
+<body>
+
+  <!-- Navegação -->
+  <nav>
+    <ul>
+      <li><a href="#apresentacao">Apresentação</a></li>
+      <li><a href="#educacao">Educação</a></li>
+      <li><a href="#certificacoes">Certificações</a></li>
+      <li><a href="#experiencia">Experiência</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Apresentação -->
+  <section id="apresentacao" class="container">
+    <h1>Klenio Lima </h1>
+    <img src="https://via.placeholder.com/150" alt="Foto de perfil" />
+    <p><strong>Email:</strong> kleniorogerio@hotmail.com</p>
+    <p><strong>Cidade:</strong> Itabira- Minas Gerais</p>
+    <p><strong>Apresentação:</strong></p>
+    <p>Sou um profissional versátil com experiência prática no mercado, desde a atuação como pizzaiolo e motoboy até a jornada como empreendedor. Em 2024, decidi me reinventar profissionalmente e iniciei uma nova etapa na área de tecnologia, ingressando na <strong>capacitação em programação pelo Projeto Desenvolve</strong>.</p>
+    <p>Tenho orgulho da minha trajetória, que reflete <strong>resiliência, iniciativa e vontade de crescer</strong>. Busco uma oportunidade onde eu possa somar com minha experiência de vida e ao mesmo tempo aprender e aplicar soluções com tecnologia. <em>Estou pronto para fazer parte de algo maior</em> — crescer com a equipe, contribuir com resultados e continuar me desenvolvendo como programador.</p>
+  </section>
+
+  <!-- Educação -->
+  <section id="educacao" class="container">
+    <h2>Educação</h2>
+    <div>
+      <h3>E.E Trajano Procopio A. S. Monteiro</h3>
+      <p><strong>Curso:</strong> Ensino Médio</p>
+      <p><em>Conclusão:</em> 2015</p>
+    </div>
+    <div>
+      <h3>Senai Itabira CFP Pedro Martins Guerra- Itabira/MG </h3>
+      <p><strong>Curso:</strong> Técnico em Mecânica</p>
+      <p><em>Conclusão:</em> 2016</p>
+    </div>
+    <div>
+      <h3>Projeto Desenvolve</h3>
+      <p><strong>Curso:</strong> Capacitação em Programação Web</p>
+      <p><em>Status:</em> Em andamento (2025)</p>
+    </div>
+  </section>
+
+  <!-- Certificações -->
+  <section id="certificacoes" class="container">
+    <h2>Certificações</h2>
+    <div>
+      <p><strong>Curso:</strong> <strong>Scratch</strong></p>
+      <p><em>Carga Horária:</em> 20h</p>
+      <p><em>Ano:</em> 2025</p>
+    </div>
+    <div>
+      <p><strong>Curso:</strong> <strong>No Code</strong></p>
+      <p><em>Carga Horária:</em> 20h</p>
+      <p><em>Ano:</em> 2025</p>
+    </div>
+  </section>
+
+  <!-- Experiência Profissional -->
+  <section id="experiencia" class="container">
+    <h2>Experiência Profissional</h2>
+    <div>
+      <h3>Pizzaiolo (Informal)</h3>
+      <p><strong>Empresa:</strong> Vapor Pizzaria</p>
+      <p><em>Período:</em> 2019 - 2021</p>
+      <p>Preparação de pizzas, organização da cozinha, atendimento e auxílio em serviços gerais de restaurante.</p>
+    </div>
+    <div>
+      <h3>Motoboy Autônomo</h3>
+      <p><strong>Empresa:</strong> Autônomo</p>
+      <p><em>Período:</em> 2021 - Atualmente</p>
+      <p>Entregas rápidas, atendimento ao cliente, gerenciamento de rotas e horários.</p>
+    </div>
+    <div>
+      <h3>Empreendedor Autônomo</h3>
+      <p><strong>Área:</strong> Vendas e Serviços</p>
+      <p><em>Período:</em> 2021 - 2024</p>
+      <p>Atuação com vendas diretas, negociação com clientes, prestação de serviços sob demanda e controle financeiro básico.</p>
+    </div>
+  </section>
+
+  <!-- Habilidades Técnicas -->
+  <section id="habilidades" class="container">
+    <h2>Habilidades Técnicas</h2>
+    <ul>
+      <li>(iniciante em programação web)</li>
+      <li>Trabalho em equipe e adaptabilidade</li>
+      <li>Responsabilidade, pontualidade e organização</li>
+      <li>Conhecimento técnico em mecânica</li>
+      <li>Experiência com atendimento ao cliente</li>
+    <li>Organização e controle de tarefas</li>
+    <li>Tomada de decisão e autonomia</li>
+    <li>Iniciativas e solução de problemas na prática</li>
+    <li>Capacidade de trabalhar sob pressão</li>
+    <li>Experiência como autônomo (facilidade para aprender e se adaptar a novos desafios)</li>
+      <li>Proatividade e aprendizado contínuo</li>
+    </ul>
+  </section>
+
+  <!-- Rodapé -->
+  <footer id="contato">
+    <p><strong>Minhas redes:</strong></p>
+    <ul>
+      <li><a href="https://linkedin.com/in/kleniolimaa" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/kleniolima" target="_blank">GitHub</a></li>
+      <li><a href="https://instagram.com/k.lima_97" target="_blank">Insta</a></li>
+    </ul>
+    <p>&copy; 2025 - Última atualização: julho de 2025</p>
+  </footer>
+
+</body>
+</html>
